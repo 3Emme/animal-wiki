@@ -1,8 +1,4 @@
 $(document).ready(function() {
-  const love1 = parseInt(prompt("1-10 how much do you love this horse?"));
-  const love2 = parseInt(prompt("1-10 how much do you love this horse?"));
-  const love3 = parseInt(prompt("1-10 how much do you love this horse?"));
-
   $("button#horse-1-button").click(function() {
     const love1 = parseInt(prompt("1-10 how much do you love this horse?"));
     
@@ -16,7 +12,8 @@ $(document).ready(function() {
   });
 
   $("button#horse-2-button").click(function() {
-    const love2 = parseInt(prompt("1-10 how much do you love this horse?));
+    const love2 = parseInt(prompt("1-10 how much do you love this horse?"));
+
     if (love2 > 5) {
       $('#horse-2-love').show();
     } else if (love2 === 5) {
