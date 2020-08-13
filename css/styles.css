@@ -1,3 +1,7 @@
-#drinks, #under-21 {
+/*#horse-1, #horse-2, #horse-3 {
   display: none;
+}*/
+
+#horse {
+  width: 30%;
 }
